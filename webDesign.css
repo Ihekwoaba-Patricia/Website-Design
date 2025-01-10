@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+section {
+    position: relative;
+}
+
+.page_container {
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER/NAV */
+.logoImage {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 60%;
+}
+
+.company_heading_div {
+    position: relative;
+    padding-left: 1rem;
+
+}
+
+.CompanyName {
+    position: absolute;
+    top: 0.5rem;
+    padding-left: 1rem;
+    font-weight: bolder;
+    font-family: 'Audiowide', Courier, monospace;
+    color: rgb(239, 205, 119);
+}
+
+.nav_div {
+    display: flex;
+    background-color: #000;
+}
+
+.navLinks {
+    display: flex;
+    margin-left: 30rem;
+    flex-flow: wrap;
+}
+
+.navLinks li {
+    flex-direction: row;
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff
+}
+
+
+/* FIRST SECTION */
+.first_section {
+    background-color: #e2dede;
+}
+
+.firstImage,
+.blankboder1 {
+    float: right;
+    width: 30rem;
+    height: 30rem;
+}
+
+.first_section span,
+.second_section span,
+.third_section span,
+.footer span {
+    visibility: hidden;
+}
+
+.first_section_writeUP {
+    margin: 4rem 4rem 0 4rem;
+    overflow: auto;
+}
+
+.first_section_writeUP h2 {
+    margin-top: 3rem;
+    word-spacing: 0.8rem;
+    font-size: xx-large;
+}
+
+.first_section_writeUP p {
+    font-size: 1.1rem;
+}
+
+.straightLine1 {
+    border-bottom: 1px solid black;
+    margin: 1rem 0 2rem 0;
+    font-weight: bolder;
+    max-width: 20rem;
+}
+
+.first_section_writeUP button,
+.second_section_writeUP button,
+.third_section_writeUP button {
+    position: absolute;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Emboss', Courier, monospace;
+}
+
+.first_section_writeUP button {
+    top: 25rem;
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+.second_section_writeUP button {
+    top: 73.5rem;
+    margin-left: 6rem;
+    background-color: rgb(248, 178, 87);
+    border: none;
+    color: #fff;
+}
+
+.third_section_writeUP button {
+    bottom: 53.8rem;
+    margin-left: 30rem;
+    background-color: rgb(248, 178, 87);
+    border: none;
+    color: #fff;
+}
+
+.clearFloat1 {
+    clear: right;
+}
+
+.writeUp1 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* SECOND SECTION */
+.second_section {
+    background-color: #fff
+}
+
+.second_section_writeUP h2 {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-family: 'Emboss', Courier, monospace;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgb(248, 178, 87);
+}
+
+.second_section_writeUP {
+    margin: 1rem 4rem 0 4rem;
+    overflow: auto;
+}
+
+.blankboder1 {
+    border: 1px solid black;
+    width: 22rem;
+    height: 20rem;
+}
+
+.secondImage {
+    position: absolute;
+    top: 50rem;
+    left: 45rem;
+    width: 25rem;
+    height: 28rem;
+}
+
+.dropCap1 {
+    position: absolute;
+    font-size: 12rem;
+    top: 46rem;
+    color: rgb(248, 178, 87);
+}
+
+.bikiniBag1 {
+    margin-left: 6rem;
+}
+
+.bikiniBag1 p {
+    font-size: large;
+    margin-top: 2rem;
+}
+
+.straightLine2 {
+    border-bottom: 1px solid black;
+    margin-top: 0.5rem;
+    font-weight: bolder;
+    max-width: 20rem;
+}
+
+em {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.listOfLorem1 {
+    margin: 3rem 0 4rem 6rem;
+}
+
+.listOfLorem1 li,
+.listOfLorem2 li {
+    text-decoration: none;
+    margin: 1rem;
+    width: 30rem;
+}
+
+
+/* THIRD SECTION */
+.third_section {
+    background-color: #000;
+    color: #fff;
+}
+
+.third_section_writeUP {
+    margin: 1rem 4rem 0 4rem;
+    overflow: auto;
+}
+
+.blankboder2 {
+    float: left;
+    border: 1px solid #fff;
+    width: 16rem;
+    height:17rem;
+    margin-top: 18rem;
+}
+
+.thirdImage {
+    position: absolute;
+    top: 85rem;
+    left: 6rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+.dropCap2 {
+    position: absolute;
+    font-size: 12rem;
+    top: 80rem;
+    left: 33rem;
+    color: rgb(248, 178, 87);
+}
+
+.bikiniBag2 {
+    margin-left: 36rem;
+}
+
+.bikiniBag2 p {
+    font-size: large;
+    margin-top: 6rem;
+}
+
+.straightLine3 {
+    border-bottom: 1px solid #fff;
+    margin-top: 0.5rem;
+    font-weight: bolder;
+    max-width: 20rem;
+}
+
+.listOfLorem2 {
+    margin: 4rem 0 3rem 36rem;
+}
+
+.footer {
+    background-color: #fff;
+}
+
+.bagTutorial {
+    position: relative;
+    margin-top: 4rem;
+    background-image: url(Img/bag3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    text-align: center;
+
+}
+
+.bagTutorial_writeUp {
+    width: 50%;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.bagTutorial_writeUp p {
+    margin-top: 2rem;
+}
+
+.bagTutorial_writeUp button {
+    margin-top: 10rem;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Emboss', Courier, monospace;
+    background-color: rgb(248, 178, 87);
+    border: none;
+    color: #fff;
+}
+
+.curve_div {
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.curve1 {
+    width: 50%;
+    height: 20rem;
+    border: 1px solid #686363;
+    background-color: #686363;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    color: #fff;
+}
+
+.reference_div {
+    margin: 0.5rem 0 0 4rem;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.curve1 h5 {
+    margin: 4rem 0 0 8rem;
+}
+
+.curve1 ul li {
+    margin: 1rem;
+}
+
+.footerLogo img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 60px;
+}
+
+.Copyright {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.curve2 {
+    position: absolute;
+    top: 0.1rem;
+    left: 37.9rem;
+    width: 50%;
+    height: 20rem;
+    border: 1px solid #686363;
+    background-color: #686363;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    color: #fff;
+}
+
+.curve2 h5 {
+    margin: 2.3rem 0 0 12rem;
+}
+
+.fa-brands_div {
+    display: flex;
+}
+
+.curve2 .fa-brands {
+    margin: 2rem 0 0 5rem; 
+    font-weight: bolder;
+}
+
+.loginForm {
+    margin: 1rem 0 0 5rem;
+    position: relative;
+}
+
+.inputEmail {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.inputComment {
+    width: 70%;
+    height: 100px;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.loginForm button {
+    position: absolute;
+    bottom: 0.5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    left: 24rem;
+    padding: 0.5rem 1rem;
+    text-align: right;
+    background-color: rgb(241, 199, 144);
+    border: none;
+    color: #000;
+}
+
+.footerLine1 {
+    border: 3px solid #686363;
+    margin-bottom: 1rem;
+}
