@@ -429,3 +429,43 @@ em {
     border: 3px solid #686363;
     margin-bottom: 1rem;
 }
+
+/* STYLES FOR EXTRA SMALL PHONES
+EXTRA SMALL DEVICES (PHONES) */
+@media (max-width: 480px) {
+
+}
+
+
+
+/* STYLES FOR TABLETS IN PORTRAIT
+SMALL DEVICES (TABLETS) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+
+/* STYLES FOR TABLET IN LANDSCAPE */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+
+/* STYLES FOR MEDIUM DEVICES (LAPTOPS) */
+@media (min-width: 1025px) and (max-width: 1367px) {
+
+}
+
+
+
+/* STYLES FOR LARGE DEVICES (DESKTOPS) */
+@media (min-width: 1368px) and (max-width: 1919px) {
+
+}
+
+
+/* STYLES FOR EXTRA LARGE SCREENS (BIGER SCREENS) */
+@media (min-width: 1920px) {
+
+}
