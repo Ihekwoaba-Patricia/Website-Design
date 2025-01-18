@@ -18,6 +18,25 @@
                     <img class="logoImage" src="Img/ceejayLogo.jpeg" alt=""> <span class="CompanyName"> CEE JAY
                         CREATIVE</span>
                 </div>
+
+                <!-- <div class="menuIcon-container" onclick="mymenuIcon()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div> -->
+
+                <div class="menuIcon" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></div>
+
+                <ul class="sideBar">
+                    <li class="cancleMenu" onclick="cancleSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="#">Home <i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#">About <i class="fa-solid fa-address-card"></i></a></li>
+                    <li><a href="#">Services <i class="fa-solid fa-list-check"></i></a></li>
+                    <li><a href="#">Tutorials <i class="fa-solid fa-user-graduate"></i></a></li>
+                    <li><a href="#">Login <i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#">Contact <i class="fa-solid fa-phone"></i></a></li>
+                </ul> 
+
                 <ul class="navLinks">
                     <li><a href="#">Home <i class="fa-solid fa-house"></i></a></li>
                     <li><a href="#">About <i class="fa-solid fa-address-card"></i></a></li>
@@ -141,6 +160,7 @@
 
                     <div class="curve_div">
                         <div class="curve1">
+                            <span>Display this text hidden</span>
                             <h5>REFERENCES</h5>
                             <div class="reference_div">
                                 <ul>
@@ -202,6 +222,28 @@
             </section>
         </main>
     </div>
+
+
+    <script>
+        function showSidebar() {
+            var sidebar1 = document.getElementsByClassName('sideBar');
+
+            for (var i=0;i<sidebar1.length;i+=1){
+             sidebar1[i].style.display = 'block';
+ }
+        }
+
+        function cancleSidebar() {
+            var sidebar2 = document.getElementsByClassName('sideBar');
+
+            for (var i=0;i<sidebar2.length;i+=1){
+             sidebar2[i].style.display = 'none';
+ }
+        }
+        // function mymenuIcon(x) {
+        //     x.classList.toggle("change");
+        // }
+    </script>
 
 </body>
 
